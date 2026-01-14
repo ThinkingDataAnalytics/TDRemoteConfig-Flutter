@@ -1,0 +1,67 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - TAThirdParty (0.3.5)
+  - td_remote_config (1.0.0):
+    - Flutter
+    - TDRemoteConfig (= 1.2.1)
+  - TDRemoteConfig (1.2.1):
+    - ThinkingSDK (= 3.1.6)
+  - thinking_analytics (3.3.1):
+    - Flutter
+    - TAThirdParty (= 0.3.5)
+    - ThinkingSDK (= 3.1.6)
+  - ThinkingDataCore (1.2.3):
+    - ThinkingDataCore/Main (= 1.2.3)
+  - ThinkingDataCore/iOS (1.2.3)
+  - ThinkingDataCore/Main (1.2.3):
+    - ThinkingDataCore/iOS
+    - ThinkingDataCore/OSX
+    - ThinkingDataCore/tvOS
+    - ThinkingDataCore/versionOS
+    - ThinkingDataCore/watchOS
+  - ThinkingSDK (3.1.6):
+    - ThinkingSDK/Main (= 3.1.6)
+  - ThinkingSDK/iOS (3.1.6):
+    - ThinkingDataCore (= 1.2.3)
+  - ThinkingSDK/Main (3.1.6):
+    - ThinkingSDK/iOS
+    - ThinkingSDK/OSX
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - td_remote_config (from `.symlinks/plugins/td_remote_config/ios`)
+  - thinking_analytics (from `.symlinks/plugins/thinking_analytics/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TAThirdParty
+    - TDRemoteConfig
+    - ThinkingDataCore
+    - ThinkingSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  td_remote_config:
+    :path: ".symlinks/plugins/td_remote_config/ios"
+  thinking_analytics:
+    :path: ".symlinks/plugins/thinking_analytics/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 2d03ab552da9a1f408709a6acf3d7ca4cb3cb307
+  TAThirdParty: 65db0235cd209237781535f19f9d0eef706156e5
+  td_remote_config: ad9f77b41391651e53992c25c8ce95680d6c8d5a
+  TDRemoteConfig: afa159299f6d6dcc5785b3a5fc15690af8e076c9
+  thinking_analytics: 37a4db2a0388d1b5d89f36fee35b599a5d74f39b
+  ThinkingDataCore: e87a6061d82d138d8b770d04cc84521547563884
+  ThinkingSDK: ccc9a8a901e2fb98a8e8b41e5084b8ab4a4c82ca
+
+PODFILE CHECKSUM: 6e700dec67e6deac9b1c69bb14c49a2217a12d15
+
+COCOAPODS: 1.16.2
